@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Simple Basketball Scoreboard</title>
+    <meta name="description" content="Simple Basketball Scoreboard" />
+    <meta name="author" content="Maksym 'Makoy' Palgan" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="column">
+        <h3>HOME</h3>
+        <h2 id="scorehome">0</h2>
+        <div>
+          <button onclick="homeclick1()">+1</button>
+          <button onclick="homeclick2()">+2</button>
+          <button onclick="homeclick3()">+3</button>
+        </div>
+      </div>
+      <div class="column">
+        <h3>GUEST</h3>
+        <h2 id="scoreguest">0</h2>
+        <div>
+          <button onclick="guestclick1()">+1</button>
+          <button onclick="guestclick2()">+2</button>
+          <button onclick="guestclick3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

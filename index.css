@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 1px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: whitesmoke
+
+}
+
+#scorehome {
+    background: #0a0001;
+    color: #F94F6D;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL';
+    padding: 10px;
+    font-size: 180px;
+    text-align: middle;
+    padding-top: 130px;
+}
+
+#scoreguest {
+    background: #0a0001;
+    color: #F94F6D;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL';
+    padding: 10px;
+    font-size: 180px;
+    text-align: middle;
+    padding-top: 130px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+button {
+    background: none;
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 100px;
+    width: 170px;
+    font-size: 50px;
+       
+}
+
+button:hover {
+    background-color: #3e8e41
+    }
+
+
